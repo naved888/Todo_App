@@ -5,11 +5,18 @@ import { ListGroupPlugin } from 'bootstrap-vue'
 import VueRouter from 'vue-router'
 import Todos from './components/Todos.vue'
 import Todoslist from './components/Todoslist.vue'
+import List from './components/List.vue'
+import Item from './components/Item.vue'
 
 Vue.use(VueRouter)
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 Vue.use(ListGroupPlugin)
+
+Vue.component("app-todos",Todos);
+Vue.component("app-todoslist",Todoslist);
+Vue.component("app-list",List);
+Vue.component("app-item",Item);
 
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)

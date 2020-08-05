@@ -14,19 +14,14 @@
                     </form>
                 </b-modal>
             </div>
-            <applist v-bind:todos="todos"></applist>
+            <app-list v-bind:todos="todos"></app-list>
         </div>
     </div>
 </template>
 
 <script>
-import List from './List'
 export default {
-    components: {
-        applist: List
-    },
-    name: 'Todos',
-    data() {
+        data() {
         return {
             name: '',
             nameState: null,

@@ -9,15 +9,13 @@
                     <option value="Completed">Completed</option>
                 </select>
             </h1>
-            <applistitem v-bind:sort="sort"></applistitem>
+            <app-item v-bind:sort="sort"></app-item>
         </div>
     </div>
 </template>
 
 <script>
-import Item from './Item'
 export default {
-    name: 'todoslist',
     data() {
         return {
             todos: [],
@@ -26,9 +24,6 @@ export default {
             sort: '',
             selected: 'All'
         }
-    },
-    components: {
-        applistitem: Item
     },
     created() {
         this.todos = JSON.parse(localStorage.getItem('this.todos'));

@@ -14,7 +14,6 @@
 
 <script>
     export default {
-        name: 'Item',
         data() {
             return {
                 listName: '',
