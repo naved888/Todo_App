@@ -22,7 +22,7 @@ export default {
             todo: {},
             listItem: [],
             sort: '',
-            selected: 'All'
+            selected: 'All',
         }
     },
     created() {
