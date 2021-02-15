@@ -25,13 +25,13 @@ Vue.config.productionTip = false
 const router = new VueRouter({
   routes: [
     {
-      path: '/',
+      path: '',
       redirect: {
         name: "Todos"
       }
     },
     {
-      path: '/',
+      path: '',
       name: 'Todos',
       component: Todos,
       // children: [
