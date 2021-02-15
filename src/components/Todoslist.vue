@@ -2,7 +2,7 @@
     <div>
         <div class="main-section">
             <h1>
-                <router-link :to="'/todos/'"><img src="../assets/back.png" alt=""></router-link>{{todo.name}}
+                <router-link :to="'/'"><img src="../assets/back.png" alt=""></router-link>{{todo.name}}
                 <select v-bind:onchange="selectChange(selected)" name="" id="filter" v-model="selected">
                     <option value="All" selected>All</option>
                     <option value="Pending">Pending</option>
