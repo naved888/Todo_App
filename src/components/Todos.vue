@@ -138,6 +138,9 @@ export default {
     h1 {
         background-color: #fff;
         display: inline-block;
+        @media screen  and (max-width: 260px) {
+            font-size: 31px
+        }
     }
 
     img {
@@ -145,6 +148,9 @@ export default {
         float: right;
         padding: 16px;
         cursor: pointer;
+        @media screen  and (max-width: 300px) {
+            padding: 10px
+        }
     }
 }
 
