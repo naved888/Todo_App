@@ -148,8 +148,8 @@ export default {
         float: right;
         padding: 16px;
         cursor: pointer;
-        @media screen  and (max-width: 300px) {
-            padding: 10px
+        @media screen  and (max-width: 260px) {
+            padding: 7px
         }
     }
 }
