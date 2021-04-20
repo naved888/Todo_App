@@ -1,7 +1,5 @@
 # todo-list_app
-```
 [Live Preview](https://todo-app-ns.netlify.app/)
-```
 ## Project setup
 ```
 npm install
